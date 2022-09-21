@@ -60,15 +60,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "笙笙宝贝，下午好！",
+      name: "清清，下午好！",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oWqS45sU4UzBCrvuTglYmzx4p8tU",
+      id: "oWqS45okZwRDzIG9rHh0-Ni4JpME",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "blswQiJ0KxIQUVqhdNHpdWrB6aL2b-K9cimf59F03fo",
       // 所在省份
-      province: "安徽",
+      province: "北京",
       // 所在城市
-      city: "合肥",
+      city: "平谷",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -95,7 +95,7 @@ export const config = {
       ]
     },
     {
-      name: "笙笙宝贝，下午好！",
+      name: "清清，下午好！",
       id: "",
       useTemplateId: "",
       province: "",
@@ -136,9 +136,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "安徽",
+  PROVINCE: "北京",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "合肥",
+  CITY: "平谷",
 
   /** 重要节日相关 */
 
@@ -194,12 +194,7 @@ export const config = {
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+   
     // 你可以不断按格式往下增加
     // ...
   ],
