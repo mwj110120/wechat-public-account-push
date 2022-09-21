@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oWqS45sU4UzBCrvuTglYmzx4p8tU",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "ZR1GdZK7wzBpnN0VSTUGl7llVlgeYG7i_JArmYp4Jfc",
+      useTemplateId: "KAXIunmtsUmpRt_nqEHmEnGuybTInKb2-zoIBpt1d_o",
       // 所在省份
       province: "北京",
       // 所在城市
@@ -96,30 +96,6 @@ export const config = {
     },
     {
       name: "清清",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
       id: "",
       useTemplateId: "",
       province: "",
@@ -182,17 +158,7 @@ export const config = {
    * isShowAge: false 不展示岁数, 仅type为生日生效
    * 删除isShowAge属性，也会不展示岁数
    * --- 是否展示周岁信息结束 ---
-   */
-  FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+   
 
   /**
    * 限制重要节日的展示条目, 需要填写数字;
